@@ -1,0 +1,43 @@
+/*************Estilos sobre nosotros*********/
+.sobre-nosotros{
+    section{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+        gap: 2rem;
+
+        h1{
+            color: $color-encabezado;
+        }
+
+        .video{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+        .texto-sobre{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 3rem;
+            border: 3px solid gray;
+            border-radius: 5px;
+        }
+        .texto-sobre-dos{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 3rem;
+            border: 3px solid gray;
+            border-radius: 5px;
+        }
+    }
+}
+
+.footer-pages{
+    position: relative;
+}

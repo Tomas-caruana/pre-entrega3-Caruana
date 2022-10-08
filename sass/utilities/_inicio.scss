@@ -1,0 +1,222 @@
+
+/*****************estilos del inicio**************/
+.main-inicio{
+    div{
+        .foto-inicio-arriba{
+            height: 20vh;
+        }
+        .foto.carrousel3{
+            display: none;
+        }
+    }
+
+    .logo-eci{
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/prueba1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sobre-nosotros-inicio{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        grid-template-rows: 0.2fr 1fr 1fr;
+        grid-template-areas:
+        "video encabezado encabezado"
+        "video texto texto"
+        "video texto texto";
+        border-radius: 3px;
+        box-shadow: 3px 3px 10px gray;
+        margin: 50px;
+        margin-top: 7rem;
+    }
+
+    section{
+        h1{
+            color: $color-encabezado;
+            font-family: 'Rubik', sans-serif;
+            grid-area: encabezado;
+            margin-top: 1.8rem;
+            margin-right: 6rem;
+            margin-left: 1.4rem;
+            color: $color-encabezado;
+            letter-spacing: 1px;
+        }
+
+        .video{
+            grid-area: video;
+            margin-left: 4rem;
+            margin-top: 2rem;
+        }
+
+        .texto-sobre{
+            grid-area: texto;
+            font-family: 'Rubik', sans-serif;
+            padding: 1rem;
+            text-align: start;
+            padding: 2.5rem;
+            padding-left: 1rem;
+        }
+
+        a{
+            img{
+                height: 4rem;
+            }
+        }
+        }
+    }
+
+
+    .sobre-dos{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 0.2fr 1fr 1fr ;
+        grid-template-areas:
+        "titulo-2  carrousel"
+        " texto-2  carrousel" 
+        " texto-2  carrousel"  ;
+        border-radius: 3px;
+        box-shadow: 3px 3px 10px gray;
+        margin: 50px;
+        margin-top: 7rem;
+
+
+        h2{
+            grid-area: titulo-2;
+            font-family: 'Rubik', sans-serif;
+            margin-top: 1.8rem;
+            margin-right: 2rem;
+            margin-left: 1.4rem;
+            color: #3e3e3ed8;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        p{
+            grid-area: texto-2;
+            font-family: 'Rubik', sans-serif;
+            padding: 1rem;
+            text-align: center;
+            padding: 3rem;
+        }
+
+        img{
+            grid-area: carrousel;
+            width: 560px;
+            padding: 20px;
+            margin-left: 10rem;
+        }
+    }
+
+    /********************* estilos MAIN Seccion productos***************/
+    main{
+        .productos-inicio{
+            display: flex;
+            margin-top: 4rem;
+        }
+
+        h2{
+            margin-top: 5rem;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .productos-inicio{
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        .card-uno{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            width: 14%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            padding: 0.4rem;
+            text-align: center;
+        }
+
+        .btn-card{
+            font-size: 17px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: 3.3rem;
+            background-color: #F47C7C;
+        }
+
+        .btn-card-tres{
+            margin-top: 35%;
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: 3.3rem;
+            background-color: #F47C7C;
+            font-size: 17px;
+        }
+
+        .card-dos{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            width: 14%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+        }
+
+        .card-tres{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            width: 14%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+        }
+
+        .contacto-main{
+            margin-top: 10rem;
+        }
+
+        .h3-form{
+            font-size: 2.5rem;
+            margin-top: 10rem;
+        }
+    }
+
+
+
+    /*********Formulario MAIN*******/
+    .contacto-main{
+        display: flex;
+        flex-direction: column;
+
+        form{
+            width: 90% !important;
+        }
+        
+        .mapa{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .contacto-principal{
+            margin-top: 5%;
+            margin-bottom: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }

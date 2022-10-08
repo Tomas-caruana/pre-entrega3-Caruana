@@ -1,0 +1,51 @@
+/******estilos body-index****/
+.body-index{
+    background-image: url(../img/fondo-pagina-web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    main{
+        display: none;
+    }
+    header{
+        background-color: $color-footer-header;
+        display: flex;
+        justify-content: space-between;
+    .navbar{
+            display: none;
+        }
+        a{
+            img{
+                height: 45px;
+                width: 90px;
+                background-color: #FFF;
+                padding: 3px;
+                margin-top: 8px;
+                margin-left: 7px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    footer{
+    background-color: $color-footer-header ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    border-radius: 2px;
+
+    p{
+        margin-top: 30px;
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    a{
+        display: inline-block;
+    margin-top: 0.48rem;
+    margin-left: 0.30rem;
+    }
+    }
+}
