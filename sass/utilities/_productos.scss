@@ -1,18 +1,104 @@
 /***************Estilo Productos************/
 body{
-.main-productos{
+    .main-productos{
     h1{
+        color: $color-encabezado;
         display: flex;
         justify-content: flex-start;
-        color: $color-encabezado;
+        margin: 3rem;
     }
     h2{
         color: $color-encabezado;
+        font-size: 28px;
     }
     .productos{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+        gap: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        justify-content: center;
+
+        .card-cuatro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 5rem;
+            width: 15%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+            text-align: center;
+            img{
+                width: 140px;
+            }
+            .btn-card{
+                padding: 10px;
+            }
+        }
+
+        .card-cinco{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 1.2rem;
+            width: 15%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+            text-align: center;
+            img{
+                width: 120px;
+            }
+            .btn-card{
+                padding: 10px;
+            }
+        }
+
+        .card-seis{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap: 4rem;
+            width: 15%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+            text-align: center;
+            img{
+                width: 120px;
+            }
+            .btn-card{
+                padding: 10px;
+            }
+        }
+        
+        .card-siete{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            gap:5rem;
+            width: 15%;
+            border: 1.5px solid gray;
+            box-shadow: 2px 2px 4px gray;
+            border-radius: 5px;
+            text-align: center;
+            img{
+                width: 120px;
+            }
+            .btn-card{
+                padding: 10px;
+            }
+        }
     }
+}
+.footer-pages{
+    padding: 1.2rem;
 }
 }

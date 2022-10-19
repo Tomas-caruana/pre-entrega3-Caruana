@@ -4,6 +4,8 @@ body{
     font-family: 'Rubik', sans-serif;
 
     header{
+        display: flex;
+        justify-content: space-between;
         background-color: $color-footer-header;
         div{
             a{
@@ -25,7 +27,6 @@ body{
                 display: flex;
                 flex-direction: row;
                 gap: 1.4rem;
-                justify-content: end;
                 padding: 20px;
                 margin-left: 15px;
                 li{

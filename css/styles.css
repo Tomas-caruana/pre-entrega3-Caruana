@@ -48,6 +48,8 @@ body {
   background-color: #FFF2F2;
   font-family: 'Rubik', sans-serif; }
   body header {
+    display: flex;
+    justify-content: space-between;
     background-color: #FF5D5D; }
     body header div a img {
       height: 45px;
@@ -63,7 +65,6 @@ body {
       display: flex;
       flex-direction: row;
       gap: 1.4rem;
-      justify-content: end;
       padding: 20px;
       margin-left: 15px; }
       body header .menu-pages ul li a {
@@ -296,3 +297,87 @@ main .h3-form {
 
 .footer-pages {
   position: relative; }
+
+/***************Estilo Productos************/
+body .main-productos h1 {
+  color: #3e3e3ea9;
+  display: flex;
+  justify-content: flex-start;
+  margin: 3rem; }
+
+body .main-productos h2 {
+  color: #3e3e3ea9;
+  font-size: 28px; }
+
+body .main-productos .productos {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  justify-content: center; }
+  body .main-productos .productos .card-cuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5rem;
+    width: 15%;
+    border: 1.5px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    text-align: center; }
+    body .main-productos .productos .card-cuatro img {
+      width: 140px; }
+    body .main-productos .productos .card-cuatro .btn-card {
+      padding: 10px; }
+  body .main-productos .productos .card-cinco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 1.2rem;
+    width: 15%;
+    border: 1.5px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    text-align: center; }
+    body .main-productos .productos .card-cinco img {
+      width: 120px; }
+    body .main-productos .productos .card-cinco .btn-card {
+      padding: 10px; }
+  body .main-productos .productos .card-seis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 4rem;
+    width: 15%;
+    border: 1.5px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    text-align: center; }
+    body .main-productos .productos .card-seis img {
+      width: 120px; }
+    body .main-productos .productos .card-seis .btn-card {
+      padding: 10px; }
+  body .main-productos .productos .card-siete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5rem;
+    width: 15%;
+    border: 1.5px solid gray;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    text-align: center; }
+    body .main-productos .productos .card-siete img {
+      width: 120px; }
+    body .main-productos .productos .card-siete .btn-card {
+      padding: 10px; }
+
+body .footer-pages {
+  padding: 1.2rem; }
