@@ -221,3 +221,78 @@
             align-items: center;
         }
     }
+
+
+
+/******************Media Queries de INICIO****************/ 
+@media screen and (max-width:767px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .menu-pages{
+            :nth-child(2){
+                display: none;
+            }
+        }
+    }
+        .main-inicio{
+        .sobre-nosotros-inicio{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            img{
+                width: 80%;
+                margin-left: 13px;
+            }
+            .texto-sobre{
+                width: auto;
+                text-align: center;
+            }
+        }
+        .sobre-dos{
+            display: none;
+        }
+        a{
+            img{
+                height: 3rem;
+                z-index: 3;
+            }
+            }
+
+/*********** MQ Main Productos***********/
+    .productos-inicio{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .card-uno{
+        width: 40%;
+    }
+    .card-dos{
+        width: 40%;
+    }
+    .card-tres{
+        width: 40%;
+    }
+    .contacto-main{
+        display: flex;
+        flex-direction: column;
+        .mapa{
+            width: 10%;
+        }
+    }
+}
+    .footer-pages{
+        position: relative;
+        height: 2.5rem;
+        .p1{
+            display: none;
+        }
+        .p2{
+            display: none;
+        }
+    }
+}

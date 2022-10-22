@@ -43,6 +43,32 @@
       margin-top: 0.48rem;
       margin-left: 0.30rem; }
 
+/************Media Queries**********/
+@media screen and (max-width: 767px) {
+  /*media queries index*/
+  .body-index {
+    background-image: none; }
+    .body-index .navbar {
+      display: block !important;
+      background-color: #FF5D5D !important; }
+    .body-index header {
+      height: 60px; }
+    .body-index .menu-pages {
+      display: none; }
+    .body-index .logo-header {
+      display: none; }
+    .body-index main {
+      display: block;
+      display: flex;
+      justify-content: center;
+      margin-top: 70%; }
+      .body-index main .logo-pcelu img {
+        height: 6rem; } }
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .body-index header {
+    height: 60px; } }
+
 /********estilos body pages********/
 body {
   background-color: #FFF2F2;
@@ -265,6 +291,56 @@ main .h3-form {
     display: flex;
     flex-direction: column;
     align-items: center; }
+
+/******************Media Queries de INICIO****************/
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    header .menu-pages :nth-child(2) {
+      display: none; }
+  .main-inicio {
+    /*********** MQ Main Productos***********/ }
+    .main-inicio .sobre-nosotros-inicio {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; }
+      .main-inicio .sobre-nosotros-inicio img {
+        width: 80%;
+        margin-left: 13px; }
+      .main-inicio .sobre-nosotros-inicio .texto-sobre {
+        width: auto;
+        text-align: center; }
+    .main-inicio .sobre-dos {
+      display: none; }
+    .main-inicio a img {
+      height: 3rem;
+      z-index: 3; }
+    .main-inicio .productos-inicio {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem; }
+    .main-inicio .card-uno {
+      width: 40%; }
+    .main-inicio .card-dos {
+      width: 40%; }
+    .main-inicio .card-tres {
+      width: 40%; }
+    .main-inicio .contacto-main {
+      display: flex;
+      flex-direction: column; }
+      .main-inicio .contacto-main .mapa {
+        width: 10%; }
+  .footer-pages {
+    position: relative;
+    height: 2.5rem; }
+    .footer-pages .p1 {
+      display: none; }
+    .footer-pages .p2 {
+      display: none; } }
 
 /*************Estilos sobre nosotros*********/
 .sobre-nosotros section {

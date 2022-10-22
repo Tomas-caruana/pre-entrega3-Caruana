@@ -49,3 +49,46 @@
     }
     }
 }
+
+
+
+/************Media Queries**********/
+@media screen and (max-width: 767px){
+    /*media queries index*/
+    .body-index{
+        background-image: none;
+        .navbar{
+            display: block !important;
+            background-color: $color-footer-header !important;
+        }
+        header{
+            height: 60px;
+        }
+        .menu-pages{
+            display: none;
+        }
+        .logo-header{
+            display: none;
+        }
+        main{
+            display: block;
+            display: flex;
+            justify-content: center;
+            margin-top: 70%;
+            .logo-pcelu{
+                img{
+                    height: 6rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 767px) and(max-width: 1023px)  {
+    .body-index{
+        header{
+            height: 60px;
+        }
+    }
+}
