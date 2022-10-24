@@ -342,6 +342,48 @@ main .h3-form {
     .footer-pages .p2 {
       display: none; } }
 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .main-inicio .sobre-nosotros-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    .main-inicio .sobre-nosotros-inicio img {
+      width: 80%;
+      margin-left: 2rem; }
+    .main-inicio .sobre-nosotros-inicio .texto-sobre {
+      width: auto;
+      text-align: center; }
+  .main-inicio .sobre-dos {
+    display: none; }
+  .main-inicio a img {
+    height: 3rem;
+    z-index: 3; }
+  .main-inicio .productos-inicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; }
+  .main-inicio .card-uno {
+    width: 30%; }
+  .main-inicio .card-dos {
+    width: 30%; }
+  .main-inicio .card-tres {
+    width: 30%; }
+  .main-inicio .contacto-main {
+    display: flex;
+    flex-direction: column; }
+    .main-inicio .contacto-main .mapa {
+      width: 10%; }
+  .h3-form {
+    display: none; }
+  .contacto-main .mapa {
+    display: none; } }
+
 /*************Estilos sobre nosotros*********/
 .sobre-nosotros section {
   display: flex;
