@@ -417,6 +417,43 @@ main .h3-form {
 .footer-pages {
   position: relative; }
 
+/************MQ SOBRE NOSOTROS**************/
+@media screen and (max-width: 767px) {
+  .sobre-nosotros section {
+    display: flex;
+    flex-direction: column; }
+    .sobre-nosotros section .video {
+      width: 70%; }
+    .sobre-nosotros section h1 {
+      margin-top: 5rem; }
+    .sobre-nosotros section .texto-sobre {
+      width: 80%;
+      border: 1px solid gray;
+      box-shadow: 2px 2px 5px; }
+    .sobre-nosotros section .texto-sobre-dos {
+      width: 80%;
+      border: 1px solid gray;
+      box-shadow: 2px 2px 5px;
+      margin-bottom: 5rem; } }
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .sobre-nosotros section {
+    display: flex;
+    flex-direction: column; }
+    .sobre-nosotros section .video {
+      width: 70%; }
+    .sobre-nosotros section h1 {
+      margin-top: 5rem; }
+    .sobre-nosotros section .texto-sobre {
+      width: 80%;
+      border: 1px solid gray;
+      box-shadow: 2px 2px 5px; }
+    .sobre-nosotros section .texto-sobre-dos {
+      width: 80%;
+      border: 1px solid gray;
+      box-shadow: 2px 2px 5px;
+      margin-bottom: 5rem; } }
+
 /***************Estilo Productos************/
 body .main-productos h1 {
   color: #3e3e3ea9;
