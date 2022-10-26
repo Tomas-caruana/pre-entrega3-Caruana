@@ -20,85 +20,77 @@ body{
         margin-top: 4rem;
         margin-bottom: 4rem;
         justify-content: center;
-
-        .card-cuatro{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-            gap: 5rem;
-            width: 15%;
-            border: 1.5px solid gray;
-            box-shadow: 2px 2px 4px gray;
-            border-radius: 5px;
-            text-align: center;
-            img{
-                width: 140px;
-            }
-            .btn-card{
-                padding: 10px;
-            }
-        }
-
-        .card-cinco{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-            gap: 1.2rem;
-            width: 15%;
-            border: 1.5px solid gray;
-            box-shadow: 2px 2px 4px gray;
-            border-radius: 5px;
-            text-align: center;
-            img{
-                width: 120px;
-            }
-            .btn-card{
-                padding: 10px; 
-            }
-        }
-
-        .card-seis{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-            gap: 4rem;
-            width: 15%;
-            border: 1.5px solid gray;
-            box-shadow: 2px 2px 4px gray;
-            border-radius: 5px;
-            text-align: center;
-            img{
-                width: 120px;
-            }
-            .btn-card{
-                padding: 10px;
-            }
-        }
-        
-        .card-siete{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px;
-            gap:5rem;
-            width: 15%;
-            border: 1.5px solid gray;
-            box-shadow: 2px 2px 4px gray;
-            border-radius: 5px;
-            text-align: center;
-            img{
-                width: 120px;
-            }
-            .btn-card{
-                padding: 10px;
-            }
-        }
     }
 }
 .footer-pages{
     padding: 1.2rem;
 }
+}
+
+
+
+/************MQ Productos**********/
+@media screen and (max-width:767px){
+    .main-productos{
+        text-align: center;
+        .productos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            .card-uno{
+                width: 50%;
+            }
+            .card-dos{
+                width: 50%;
+            }
+            .card-tres{
+                width: 50%;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 767px) and(max-width: 1023px){
+    .main-productos{
+        text-align: center;
+        .productos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            .card-uno{
+                width: 30%;
+            }
+            .card-dos{
+                width: 30%;
+            }
+            .card-tres{
+                width: 30%;
+            }
+        }
+    }
+}
+
+
+@media  screen and (min-width:1024px) {
+    .main-productos{
+        text-align: center;
+        .productos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            .card-uno{
+                width: 20%;
+            }
+            .card-dos{
+                width: 20%;
+            }
+            .card-tres{
+                width: 20%;
+            }
+        }
+    }
 }

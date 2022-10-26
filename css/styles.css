@@ -474,69 +474,55 @@ body .main-productos .productos {
   margin-top: 4rem;
   margin-bottom: 4rem;
   justify-content: center; }
-  body .main-productos .productos .card-cuatro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 5rem;
-    width: 15%;
-    border: 1.5px solid gray;
-    box-shadow: 2px 2px 4px gray;
-    border-radius: 5px;
-    text-align: center; }
-    body .main-productos .productos .card-cuatro img {
-      width: 140px; }
-    body .main-productos .productos .card-cuatro .btn-card {
-      padding: 10px; }
-  body .main-productos .productos .card-cinco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 1.2rem;
-    width: 15%;
-    border: 1.5px solid gray;
-    box-shadow: 2px 2px 4px gray;
-    border-radius: 5px;
-    text-align: center; }
-    body .main-productos .productos .card-cinco img {
-      width: 120px; }
-    body .main-productos .productos .card-cinco .btn-card {
-      padding: 10px; }
-  body .main-productos .productos .card-seis {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 4rem;
-    width: 15%;
-    border: 1.5px solid gray;
-    box-shadow: 2px 2px 4px gray;
-    border-radius: 5px;
-    text-align: center; }
-    body .main-productos .productos .card-seis img {
-      width: 120px; }
-    body .main-productos .productos .card-seis .btn-card {
-      padding: 10px; }
-  body .main-productos .productos .card-siete {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 5rem;
-    width: 15%;
-    border: 1.5px solid gray;
-    box-shadow: 2px 2px 4px gray;
-    border-radius: 5px;
-    text-align: center; }
-    body .main-productos .productos .card-siete img {
-      width: 120px; }
-    body .main-productos .productos .card-siete .btn-card {
-      padding: 10px; }
 
 body .footer-pages {
   padding: 1.2rem; }
+
+/************MQ Productos**********/
+@media screen and (max-width: 767px) {
+  .main-productos {
+    text-align: center; }
+    .main-productos .productos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center; }
+      .main-productos .productos .card-uno {
+        width: 50%; }
+      .main-productos .productos .card-dos {
+        width: 50%; }
+      .main-productos .productos .card-tres {
+        width: 50%; } }
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .main-productos {
+    text-align: center; }
+    .main-productos .productos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center; }
+      .main-productos .productos .card-uno {
+        width: 30%; }
+      .main-productos .productos .card-dos {
+        width: 30%; }
+      .main-productos .productos .card-tres {
+        width: 30%; } }
+
+@media screen and (min-width: 1024px) {
+  .main-productos {
+    text-align: center; }
+    .main-productos .productos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center; }
+      .main-productos .productos .card-uno {
+        width: 20%; }
+      .main-productos .productos .card-dos {
+        width: 20%; }
+      .main-productos .productos .card-tres {
+        width: 20%; } }
 
 .main-carrito {
   display: flex;
@@ -560,3 +546,8 @@ body .footer-pages {
 .footer-pages {
   position: absolute;
   bottom: 0; }
+
+/************MQ CARRITO***************/
+@media screen and (max-width: 767px) {
+  .main-carrito {
+    text-align: center; } }
